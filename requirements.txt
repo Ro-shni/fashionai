@@ -1,5 +1,5 @@
 datasets
-chromadb
+chromadb>=0.2.0
 open-clip-torch
 google-generativeai
 streamlit
