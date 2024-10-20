@@ -10,11 +10,12 @@ import chromadb
 from dotenv import load_dotenv
 import os
 import warnings
+from api_key import api_key 
 
 warnings.filterwarnings("ignore")
 
 load_dotenv()
-api_key = "AIzaSyAis2bPpDjr6r7MrA7kezHjOLc2PIRs_E4"
+api_key = api_key
 genai.configure(api_key=api_key)
 
 def format_image_inputs(data):
